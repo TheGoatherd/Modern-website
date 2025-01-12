@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy-Medium',sans-serif;
+}
+
+
+
+html,body{
+    width: 100%;
+    height: 100%; 
+   overflow: hidden;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    pointer-events: all;
+  
+}
+
+#backpanel{
+    width: 100vw;
+    height: 100vh;
+} 
+
+#backpanel  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#toppanel{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    
+} 
+
+#workingarea{
+    width: 85%;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+#nav{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav img{
+    height: 42px;
+}
+
+#navleft{
+    gap: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#navleft a {
+    pointer-events: all;
+    text-transform: capitalize;
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+    gap: 20%;
+}
+
+#navright{
+    gap: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#navright a {
+    pointer-events: all;
+    text-transform: capitalize;
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+    gap: 20%;
+}
+
+
+#content{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0%,-50%);
+    top: 27%;
+    left: 0%;
+}
+
+#leftcon{
+    width: 50%;
+   
+}
+
+#leftcon .elem{
+    position: relative;
+    height: 9vw;
+    overflow: hidden;
+    
+}
+
+#leftcon .elem h1:nth-child(1){
+    top: 0;
+}
+
+#leftcon .elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    letter-spacing: 2px;
+    line-height: 1;
+    font-family: "kajiro";
+    color: #e5e5e5;
+    font-size: 9vw;
+    font-weight: 100;
+}
+
+#content button {
+    pointer-events: all;
+    padding: .23vw 2.7vw;
+    font-family: "kajiro";
+    font-size: 3.1vw;
+    letter-spacing: 1px;
+    margin-top: 2vw;
+}
+
+#rightcon{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color:white;
+    height: 100vw;
+    overflow: hidden;
+    
+    
+
+}
+
+#rightcon p{
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 570;
+    
+}
+
+img{
+    height: 170px;
+}
+
+
+
+#rightcon #imgtu{
+    overflow: hidden;
+    height: 170px;
+    position: relative;
+    width: 20vw;
+    display: flex;
+    
+}
+
+
+#rightcon .imgani img:nth-child(1){
+    left: 0%;
+}
+
+
+
+#rightcon .imgani {
+    display: flex;
+    transition: transform 1s ease; 
+}
+
+
+
+#rightcon .imgani img{
+   left: 200%;
+    position: absolute;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-position: center;
+    background-size: cover;
+    margin: 0px 15px;
+  
+
+   
+}
+
+#rightcon .imgani img:nth-child(1){
+    z-index: 5;
+}
+#rightcon .imgani img:nth-child(2){
+    z-index: 4;
+}
+#rightcon .imgani img:nth-child(3){
+    z-index: 3;
+}
+#rightcon .imgani img:nth-child(4){
+    z-index: 2;
+}
+#rightcon .imgani img:nth-child(5){
+    z-index: 1;
+}
+
+
+
+
+#rightcon p:nth-child(3){
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
